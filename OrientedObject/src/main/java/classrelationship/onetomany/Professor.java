@@ -1,5 +1,6 @@
 package classrelationship.onetomany;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Professor {
@@ -10,6 +11,7 @@ public class Professor {
     public Professor(String nomeProfessor, int idProfessor) {
         this.nomeProfessor = nomeProfessor;
         this.idProfessor = idProfessor;
+        this.disciplinas = new ArrayList<>();
     }
 
     public String getNomeProfessor(){
