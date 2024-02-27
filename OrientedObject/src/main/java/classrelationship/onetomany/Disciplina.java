@@ -5,8 +5,6 @@ public class Disciplina {
     public String nomeDisciplina;
     public int id;
 
-
-
     public Disciplina(String nomeDisciplina, int id, Professor professor) {
         this.nomeDisciplina = nomeDisciplina;
         this.id = id;
