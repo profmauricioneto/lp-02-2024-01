@@ -1,7 +1,5 @@
 package classrelationship.reflexive;
 
-import classrelationship.manytomany.Disciplina;
-
 import java.util.ArrayList;
 import java.util.List;
 
