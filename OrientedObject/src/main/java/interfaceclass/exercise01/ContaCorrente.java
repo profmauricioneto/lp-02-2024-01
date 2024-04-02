@@ -1,16 +1,21 @@
 package interfaceclass.exercise01;
 
-public class ContaCorrente implements OperacoesBancarias {
+public class ContaCorrente implements OperacoesBancarias, OperacoesPessoais {
     protected double montante;
     protected double taxa;
+    protected int id = 0;
+    protected String nome;
+
     public ContaCorrente() {
         this.montante = 0;
         this.taxa = 0.05;
+        this.nome = "Unknow";
 
     }
-    public ContaCorrente(double montante, double taxa) {
+    public ContaCorrente(double montante, double taxa, String nome) {
         this.montante = montante;
         this.taxa = taxa;
+        this.nome = nome;
     }
 
     @Override
@@ -30,5 +35,25 @@ public class ContaCorrente implements OperacoesBancarias {
     @Override
     public double saldo() {
         return montante;
+    }
+
+    @Override
+    public int getId() {
+        return id;
+    }
+
+    @Override
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public String getNome() {
+        return nome;
+    }
+
+    @Override
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }

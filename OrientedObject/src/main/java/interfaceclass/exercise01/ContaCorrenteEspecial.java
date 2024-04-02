@@ -4,8 +4,8 @@ public class ContaCorrenteEspecial extends ContaCorrente {
     public ContaCorrenteEspecial() {
         super();
     }
-    public ContaCorrenteEspecial(double montante, double taxa) {
-        super(montante, taxa);
+    public ContaCorrenteEspecial(double montante, double taxa, String nome) {
+        super(montante, taxa, nome);
     }
 
     @Override
