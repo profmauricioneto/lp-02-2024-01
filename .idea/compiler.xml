@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fundamentals" />
+        <module name="reviewnp1" />
         <module name="OrientedObject" />
+        <module name="np1" />
       </profile>
     </annotationProcessing>
   </component>
