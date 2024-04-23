@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fundamentals" />
+        <module name="designpattern" />
         <module name="reviewnp1" />
         <module name="OrientedObject" />
         <module name="np1" />
